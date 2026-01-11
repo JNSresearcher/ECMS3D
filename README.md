@@ -47,7 +47,7 @@ If the current source borders on a region with relative magnetic permeability **
 <table><tr> 
 <td>
 
-$$ \left( \nabla \times  \vec{A_1} \right)  -  \left( \nabla \times  \vec{A_2} \right) =\mu \mu_0 \left( \vec{J}_s \times \vec{n} \right) $$ 
+$$\left( \nabla \times  \vec{A_1} \right)  -  \left( \nabla \times  \vec{A_2} \right) =\mu \mu_0 \left( \vec{J}_s \times \vec{n} \right)$$ 
 
 </td>
 </tr></table>
@@ -66,6 +66,7 @@ where **$\vec{n}$** is the normal to the boundary with the domain, where **$\mu 
 $$\nabla^2 \vec{A}-\mu_0\sigma \left(\frac{\partial \vec{A}}{\partial t} +\nabla U + (\vec{V}_e \cdot\nabla) \vec{A}  \right)= 0$$ 
   
 $$\nabla^2 U + \nabla \cdot \left( \frac{\partial \vec{A}}{\partial t} + (\vec{V}_e\cdot\nabla) \vec{A} \right) = 0$$ 
+
 </td>
 </tr></table>
 
@@ -86,15 +87,13 @@ $$\vec{J_e} = \sigma \left( \frac{\partial \vec{A}}{\partial t} +\nabla U + (\ve
 <td>
 
 $$\nabla^2 \phi = \nabla \cdot \vec{J_e}^n;  \vec{J_e}^{n+1} = \vec{J_e}^n - \nabla\phi$$
+
 </td>
 </tr></table>
 
 &emsp; To derive these equations, I used the information given in the **Bibliography** [[1]](#b1), [[2]](#b2), [[3]](#b3).   
 
 #### 1.3.2 Matrix form of equations for calculations:
-
-<table><tr> 
-<td>
 
 $$
 \begin{aligned}
@@ -117,9 +116,7 @@ U
 -\nabla \cdot (\vec{V}_e\cdot\nabla) \vec{A}
 \end{bmatrix} 
 \end{aligned}
- $$
-</td>
-</tr></table>
+$$
 
 &emsp; The components of the external source **$Js_x, Js_y, Js_z$** are located only in the regions where  **$\sigma=0$**.
 &emsp;In this matrix equation, the velocity-dependent components are placed on the right-hand side. The values ​​of the vector potential in the vector of the right sides are determined from the results obtained in the previous calculation step.    
@@ -251,7 +248,6 @@ Based on materials published in [[4]](#b4). The initial data for the task is in 
 
 &emsp;&emsp; Fig.4. Sscreenshots of geometry created by **VoxCAD** and calculation results obtained in **ECMS3D** and displayed in **ParaView**   
   
- 
 
 ***
 ### Bibliography
@@ -268,3 +264,4 @@ ISBN 9780470970904 URL https://www.amazon.com/Theory-Linear-Induction-Motors-Yam
 Autor <a href="mailto:JNSresearcher@gmail.com">J.Sochor</a>
 
  *** 
+
